@@ -1,19 +1,44 @@
+ .header {
+    padding: 10px;
+     display: flex;
+     justify-content: space-between;
+     background-color: teal;
+     color: white;
+ }
 
-        .header{
-            display: flex;
-            background-color: limegreen;
-            color: black;
-        }
-        .footer{
-            background-color: silver;
-        }
-        .container{
-            margin: 0px;
-        }
+ .footer {
+     background-color: silver;
+ }
 
-  *{
-    margin: 0px;
-  }
-  .menu{
-    display: flex;
-  }
+ .container {
+     margin: 0px;
+ }
+
+ * {
+     margin: 0px;
+ }
+
+ .menu {
+     display: flex;
+ }
+
+ .menu li{
+    list-style:none;
+    margin: 5px;
+    
+ }
+ .menu li a{
+    text-decoration: none;
+    color:white;
+ }
+
+ .box{
+  width: 300 px;
+  background-color: yellow;
+  border: 1px solid red;
+
+
+    margin: 5x;
+    padding: 10px;
+    border: 1px gray solid;
+ }
